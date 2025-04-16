@@ -35,6 +35,7 @@ def get_iss_location():
         dtime = dt_obj.strftime('%Y-%m-%d-%H:%M:%S')
 
         # get longitude and latitude
+        logger.info("Getting current location of the ISS...")
         long = r['iss_position']['longitude']
         lat = r['iss_position']['latitude']
 
