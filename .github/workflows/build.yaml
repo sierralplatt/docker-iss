@@ -13,6 +13,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: sierralplatt/testcontainer
   IMAGE_TAG: 1.${{ github.run_number }} # GITHUB_RUN_NUMBER }}
+  #added a comment
 
 jobs:
   build:
